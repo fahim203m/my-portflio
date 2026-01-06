@@ -18,7 +18,7 @@
 header{
     background-color: #FFF8F3;
     background: url(developer.png),url(header_bg.png), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
      
@@ -83,7 +83,8 @@ ul{
 }
 #banner .banner-image{
     max-width: 685px;
-    vertical-align: middle;
+    vertical-align:middle ;
+    margin-bottom: 0;
 }
 #about{
     padding-top: 130px;
@@ -125,7 +126,7 @@ ul{
 .about-info .info-card h4{
     font-size: 20px;
 }
-#skills{
+#skills , #resume  {
     padding-top: 130px;
 }
  #skills .skills-contenear{
@@ -154,11 +155,86 @@ ul{
     margin-bottom: 20px;
   }
   .skills-card p{
-     font-size: 15px;
+    font-size: 15px;
     line-height: 28px;
     color: #757575;
+} 
+.text-senter{
+    text-align: center;
 }
- 
- 
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0px;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-titel{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
 
- 
+}
+.resume-card{
+    margin-right: 47px;
+    max-width: 511px;
+}
+.resume-card .card-titel{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-weight: 600;
+} 
+  .resume-card .card-text{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #757575;
+     line-height: 28px;
+} 
+.resume-container hr {
+    margin: 30px 0px;
+    
+}
+footer{
+    margin-top: 130px;
+background-color: #FFF8F3;
+padding: 130px 0px;
+}
+.footer-contenar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto ;
+    display: flex;
+    gap: 116px;
+}
+.footer-contenar .socil{
+    max-width: 562px;
+}
+ .footer-contenar h2 {
+    color: #181818;
+    font-size: 35px ;
+    margin-bottom: 20px;
+
+ }
+ .footer-contenar .socil p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+ }
+ .footer-contenar .icon a{
+    margin-right: 24px;
+ }
+ .footer-contenar form input[type="text"] ,.footer-contenar form textarea {
+    width: 461px;
+    padding: 18px  31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+
+ }
